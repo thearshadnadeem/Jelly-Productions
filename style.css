@@ -100,3 +100,27 @@ ul {
     cursor: pointer;
 }
 
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.hero-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.projects-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
